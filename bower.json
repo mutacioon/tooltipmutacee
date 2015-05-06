@@ -1,0 +1,32 @@
+{
+  "name": "Tooltip_mutacee",
+  "version": "0.0.0",
+  "authors": [
+    "ondrejhlavac <ondrej.hlavac@outlook.com>"
+  ],
+  "description": "a tag hover tooltip from a tag title",
+  "main": "index",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "a",
+    "tag",
+    "hover",
+    "tooltip",
+    "from",
+    "a",
+    "tag",
+    "title",
+    "_mutacee"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
