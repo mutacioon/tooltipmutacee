@@ -21,12 +21,17 @@
     "_mutacee"
   ],
   "license": "MIT",
-  "homepage": "index.html",
+  "homepage": "https://github.com/mutacioon/tooltipmutacee",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
+    "components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "normalize.css": "~3.0.3"
+  }
 }
