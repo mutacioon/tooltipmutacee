@@ -19,7 +19,7 @@ onload = function (e) {
         var tooltipInfo = this.title;
         var tooltipBox = document.createElement("SPAN");
         tooltipBox.innerHTML = tooltipInfo;
-        tooltipBox.setAttribute("id", "mt-active")
+        tooltipBox.setAttribute("id", "mt-active");
         this.appendChild(tooltipBox);
     }
 
@@ -27,18 +27,19 @@ onload = function (e) {
         var tooltipBox = document.getElementById('mt-active');
         this.removeChild(tooltipBox);
     }
+};
 
-    //document.getElementById("mt-tooltip").addEventListener("tooltipOver", tooltipOver);
-    //document.getElementById("mt-tooltip").addEventListener("tooltipOut", tooltipOut);
 
-    //function tooltipOver() {
-    //    document.getElementById("mt-tooltip").style.color = "red";
-    //}
-    //
-    //function tooltipOut() {
-    //    document.getElementById("mt-tooltip").style.color = "black";
-    //}
-}
+//document.getElementById("mt-tooltip").addEventListener("tooltipOver", tooltipOver);
+//document.getElementById("mt-tooltip").addEventListener("tooltipOut", tooltipOut);
+
+//function tooltipOver() {
+//    document.getElementById("mt-tooltip").style.color = "red";
+//}
+//
+//function tooltipOut() {
+//    document.getElementById("mt-tooltip").style.color = "black";
+//}
 
 
 //var myTooltip = new Window();
