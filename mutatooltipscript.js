@@ -2,7 +2,7 @@
  * Created by Ondrej on 06/05/2015.
  */
 
-onload = function (e) {
+onload = function () {
 
     var tooltipWindow = document.getElementsByClassName('mt-tooltip');
 
@@ -29,7 +29,6 @@ onload = function (e) {
     }
 };
 
-
 //document.getElementById("mt-tooltip").addEventListener("tooltipOver", tooltipOver);
 //document.getElementById("mt-tooltip").addEventListener("tooltipOut", tooltipOut);
 
@@ -40,7 +39,6 @@ onload = function (e) {
 //function tooltipOut() {
 //    document.getElementById("mt-tooltip").style.color = "black";
 //}
-
 
 //var myTooltip = new Window();
 //
