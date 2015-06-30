@@ -7,13 +7,12 @@ onload = function () {
     var tooltipWindow = document.getElementsByClassName('mt-tooltip');
 
     for( i=0; i<tooltipWindow.length; i++ ) {
-        document.getElementsByClassName('mt-tooltip')[i].addEventListener('mouseover', tooltipHover, false);
+        document.getElementsByClassName('mt-tooltip')[i].addEventListener('mouseover', tooltipHover);
     }
 
     for( p=0; p<tooltipWindow.length; p++ ) {
         document.getElementsByClassName('mt-tooltip')[p].addEventListener('mouseout', tooltipOut);
     }
-
 
     function tooltipHover(){
         var tooltipInfo = this.title;
